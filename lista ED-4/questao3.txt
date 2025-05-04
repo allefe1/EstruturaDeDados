@@ -1,0 +1,400 @@
+Sequência 1: 44, 98, 78, 1, 67, 30
+Heap inicial:
+
+
+    98
+   /  \
+ 67   78
+ / \  /
+1  44 30
+Remover 98 (troca com 30, depois 30 desce):
+
+
+    30
+   /  \
+ 67   78
+ / \
+1  44
+(Troca 30 com 78)
+
+
+    78
+   /  \
+ 67   30
+ / \
+1  44
+Remover 78 (troca com 44, depois 44 desce):
+
+
+    44
+   /  \
+ 67   30
+ / 
+1
+(Troca 44 com 67)
+
+
+    67
+   /  \
+ 44   30
+ / 
+1
+Remover 67 (troca com 1, depois 1 desce):
+
+
+    1
+   / \
+ 44  30
+(Troca 1 com 44)
+
+
+   44
+  /  \
+ 1   30
+Remover 44 (troca com 30, depois 30 desce):
+
+
+   30
+  /
+ 1
+Remover 30:
+
+
+1
+Remover 1:
+
+
+(vazio)
+Sequência 2: 12, 55, 63, 17, 2, 9
+Heap inicial:
+
+
+   63
+  /  \
+17   55
+/ \  /
+12 2 9
+Remover 63 (troca com 9, depois 9 desce):
+
+
+   9
+  / \
+17  55
+/ \
+12 2
+(Troca 9 com 55)
+
+
+   55
+  /  \
+17   9
+/ \
+12 2
+Remover 55 (troca com 2, depois 2 desce):
+
+
+   2
+  / \
+17  9
+/
+12
+(Troca 2 com 17)
+
+
+   17
+  / \
+2   9
+/
+12
+Remover 17 (troca com 12, depois 12 desce):
+
+
+   12
+  / \
+2   9
+(Troca 12 com 9)
+
+
+   9
+  / \
+2  12
+Remover 9 (troca com 12):
+
+
+ 12
+ /
+2
+Remover 12:
+
+
+2
+Remover 2:
+
+
+(vazio)
+Sequência 3: 7, 95, 32, 44, 28, 13
+Heap inicial:
+
+
+   95
+  /  \
+44   32
+/ \  /
+7 28 13
+Remover 95 (troca com 13, depois 13 desce):
+
+
+   13
+  /  \
+44   32
+/ \
+7 28
+(Troca 13 com 44)
+
+
+   44
+  /  \
+13   32
+/ \
+7 28
+Remover 44 (troca com 28, depois 28 desce):
+
+
+   28
+  /  \
+13   32
+/ 
+7
+(Troca 28 com 32)
+
+
+   32
+  /  \
+13   28
+/ 
+7
+Remover 32 (troca com 7, depois 7 desce):
+
+
+   7
+  / \
+13 28
+(Troca 7 com 28)
+
+
+   28
+  / \
+13 7
+Remover 28 (troca com 7):
+
+
+13
+/
+7
+Remover 13:
+
+
+7
+Remover 7:
+
+
+(vazio)
+Sequência 4: 21, 41, 53, 64, 1, 90
+Heap inicial:
+
+
+    90
+   /  \
+ 53   64
+/ \  /
+21 1 41
+Remover 90 (troca com 41, depois 41 desce):
+
+
+    41
+   /  \
+ 53   64
+/ \
+21 1
+(Troca 41 com 64)
+
+
+    64
+   /  \
+ 53   41
+/ \
+21 1
+Remover 64 (troca com 1, depois 1 desce):
+
+
+   1
+  / \
+53 41
+/
+21
+(Troca 1 com 53)
+
+
+   53
+  / \
+1  41
+/
+21
+Remover 53 (troca com 21, depois 21 desce):
+
+
+   21
+  / \
+1  41
+(Troca 21 com 41)
+
+
+   41
+  / \
+1 21
+Remover 41 (troca com 21):
+
+
+1
+Remover 1:
+
+
+21
+Remover 21:
+
+
+(vazio)
+Sequência 5: 77, 19, 37, 27, 2, 99
+Heap inicial:
+
+
+   99
+  /  \
+27   77
+/ \  /
+19 2 37
+Remover 99 (troca com 37, depois 37 desce):
+
+
+   37
+  /  \
+27   77
+/ \
+19 2
+(Troca 37 com 77)
+
+
+   77
+  /  \
+27   37
+/ \
+19 2
+Remover 77 (troca com 2, depois 2 desce):
+
+
+   2
+  / \
+27 37
+/
+19
+(Troca 2 com 37)
+
+
+   37
+  / \
+27 2
+/
+19
+Remover 37 (troca com 19, depois 19 desce):
+
+
+  19
+ / \
+27 2
+(Troca 19 com 27)
+
+
+  27
+ / \
+19 2
+Remover 27 (troca com 2):
+
+
+19
+/
+2
+Remover 19:
+
+
+2
+Remover 2:
+
+
+(vazio)
+Sequência 6: 13, 8, 29, 101, 44, 67
+Heap inicial:
+
+
+   101
+  /   \
+44    67
+/ \   /
+8  29 13
+Remover 101 (troca com 13, depois 13 desce):
+
+
+   13
+  /  \
+44   67
+/ \
+8 29
+(Troca 13 com 67)
+
+
+   67
+  /  \
+44  13
+/ \
+8 29
+Remover 67 (troca com 29, depois 29 desce):
+
+
+   29
+  /  \
+44  13
+/
+8
+(Troca 29 com 44)
+
+
+   44
+  /  \
+29  13
+/
+8
+Remover 44 (troca com 8, depois 8 desce):
+
+
+   8
+  / \
+29 13
+(Troca 8 com 29)
+
+
+   29
+  / \
+8  13
+Remover 29 (troca com 13):
+
+
+8
+/
+13
+Remover 8:
+
+
+13
+Remover 13:
+
+
+(vazio)
